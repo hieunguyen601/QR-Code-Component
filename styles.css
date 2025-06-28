@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(165, 128, 61),black);
+}
+
+.qrCode {
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 35px;
+}
+
+.main-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.first-pa {
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.second-pa {
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 10px;
+    color: white;
+}
